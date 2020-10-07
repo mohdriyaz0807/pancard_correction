@@ -32,7 +32,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <table>
 <tr>
 <td class="empty"></td>
-<td colspan="3"><b class="m"><span class="red">*</span>  Whether citizen of India</b> <label for="yes">Yes</label><input type="radio" id="yes"><label for="no">No</label><input type="radio" id="no"></td>
+<td colspan="3"><b class="m"><span class="red">*</span>  Whether citizen of India</b> <label for="yes">Yes</label><input type="radio" id="yes" name="y"><label for="no">No</label><input type="radio" id="no" name="y"></td>
 </tr>
 <tr>
 <td class="empty"></td>
@@ -44,7 +44,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 </tr>
 <tr>
 <td class="empty"></td>
-<td colspan="3"><b class="m"> Title</b> <label for="shri">Shri/Mr</label><input type="radio" id="shri"><label for="smt">Smt/Mrs</label><input type="radio" id="smt"><label for="k">Kumari/Ms</label><input type="radio" id="k">M/s</td>
+<td colspan="3"><b class="m"> Title</b> <label for="shri">Shri/Mr</label><input type="radio" id="shri" name="mr"><label for="smt">Smt/Mrs</label><input type="radio" id="smt" name="mr"><label for="k">Kumari/Ms</label><input type="radio" id="k" name="mr">M/s</td>
 </tr>
 <tr>
 <td class="empty"></td>
@@ -69,7 +69,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <tr>
 <td class="empty"></td>
 <td><b class="m">Whether mother is single parent and you wish to apply for PAN by furnishing the name of<br> your mother only</b></td>
-<td colspan="2"> <label for="yes">Yes</label><input type="radio" id="yes"><label for="no">No</label><input type="radio" id="no"></td>
+<td colspan="2"> <label for="yes">Yes</label><input type="radio" id="yes" name="n"><label for="no">No</label><input type="radio" id="no" name="n"></td>
 </tr>
 <tr>
 <td><input type="checkbox"></td>
@@ -98,7 +98,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <tr>
 <td class="empty"></td>
 <td><b><span class="red">*</span>  4. Select Parent name which is to be printed on the card </b><br><span class="l">(In case no option is provided then PAN card will be issued with father's name)</span></td>
-<td colspan="2"> <label for="yes">Father name</label><input type="radio" id="yes"><label for="no">Mother name</label><input type="radio" id="no"></td>
+<td colspan="2"> <label for="yes">Father name</label><input type="radio" id="yes" name="f"><label for="no">Mother name</label><input type="radio" id="no" name="f"></td>
 </tr>
 <tr>
 <td><input type="checkbox"></td>
@@ -114,7 +114,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <tr>
 <td><input type="checkbox"></td>
 <td><b><span class="red">*</span>  6. Gender</b></td>
-<td colspan="2"> <label for="male">Male</label><input type="radio" id="male"><label for="fem">Female</label><input type="radio" id="fem"><label for="trans">TransGender</label><input type="radio" id="trans"></td>
+<td colspan="2"> <label for="male">Male</label><input type="radio" id="male" name="g"><label for="fem">Female</label><input type="radio" id="fem" name="g"><label for="trans">TransGender</label><input type="radio" id="trans" name="g"></td>
 </tr>
 <tr>
 <td><input type="checkbox"></td>
@@ -127,7 +127,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <tr>
 <td><input type="checkbox"></td>
 <td><b><span class="red">*</span>  9. Address for Communication</b></td>
-<td colspan="2"> <label for="residential">Residential</label><input type="radio" id="residential"><label for="office">Office</label><input type="radio" id="office"></td>
+<td colspan="2"> <label for="residential">Residential</label><input type="radio" id="residential" name="o"><label for="office">Office</label><input type="radio" id="office" name="o"></td>
 </tr>
 <tr>
 <td class="empty"></td>
@@ -207,8 +207,8 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <option value="256">UGANDA (256)</option><option value="380">UKRAINE (380)</option><option value="971">UNITED ARAB EMIRATES (971)</option><option value="44">UNITED KINGDOM (44)</option><option value="255">UNITED REPUBLIC OF TANZANIA (255)</option><option value="B1">UNITED STATES (1)</option><option value="598">URUGUAY (598)</option><option value="84">VIET NAM (84)</option><option value="967">YEMEN (967)</option><option value="260">ZAMBIA (260)</option><option value="263">ZIMBABWE (263)</option></select></td>
 </tr>
 <tr>
-<td><label for="mobile no.">Mobile No.</label><input type="radio" id="mobile no."></td>
-<td><label for="Telephone No.">Telephone No.</label><input type="radio" id="Telephone No."></td>
+<td><label for="mobile no.">Mobile No.</label><input type="radio" id="mobile no." name="t"></td>
+<td><label for="Telephone No.">Telephone No.</label><input type="radio" id="Telephone No." name="t"></td>
 </tr>
 <tr>
 <td>Area/STD Code<br><input type="text"></td>
@@ -222,7 +222,7 @@ table ,td{border:1px solid black;border-collapse:collapse;padding:2px}
 <tr>
 <td class="empty"></td>
 <td>In case of a citizen of India, then</td>
-<td colspan="2"><label for="AADHAAR">AADHAAR</label><input type="radio" id="AADHAR" style="margin-right:60px"><label for="EID">EID</label><input type="radio" id="EID"></td>
+<td colspan="2"><label for="AADHAAR">AADHAAR</label><input type="radio" id="AADHAR" style="margin-right:60px" name="a"><label for="EID">EID</label><input type="radio" id="EID" name="a"></td>
 </tr>
 <tr>
 <td><input type="checkbox"></td>
@@ -306,7 +306,7 @@ as proof of PAN allotted.</td>
 </tr>
 <tr>
 <td class="empty"></td>
-<td colspan="3"><b class="m"> Whether you wish to have?</b> <label for="yes">Physical PAN Card & e-PAN Card</label><input type="radio" id="yes"><label for="no">Only e-PAN Card</label><input type="radio" id="no">
+<td colspan="3"><b class="m"> Whether you wish to have?</b> <label for="yes">Physical PAN Card & e-PAN Card</label><input type="radio" id="yes" name="p"><label for="no">Only e-PAN Card</label><input type="radio" id="no" name="p">
 <a href="https://google.com" target="_blank"><span class="fees">Fees Applicable</span></a></td>
 </tr>
 <tr>
@@ -330,15 +330,15 @@ as proof of PAN allotted.</td>
 <td class="cont" colspan="3">Online Payment</td>
 </tr>
 </table>
-<p>For Paperless PAN Application:   <label for="yes">Yes</label><input type="radio" id="yes">
-<label for="yes">No</label><input type="radio" id="yes"><br>
+<p>For Paperless PAN Application:   <label for="yes">Yes</label><input type="radio" id="yes" name="paperless">
+<label for="yes">No</label><input type="radio" id="yes" name="paperless"><br>
 <label for="yes">DSC</label><input type="radio" id="yes">
 <select name="USER_TYPE" id="DSCDrop" style="WIDTH: 200px; HEIGHT: 22px"> <option value="select">--Select--</option><option value="MINOR">Minor</option>
  <option value="RA">Lunatic/Idiot</option><option value="AP">Self</option></select><a href="https://google.com" target="_blank"><span class="dsc">Guidelines for DSC user</span></a><br>
  <table>
  <tr><td class="noborder">Upload Photo</td><td class="noborder"><input type="file"></td><td class="noborder">Upload Signature <input type="file" class="mr"></td></tr>
  <tr><td class="noborder">Upload Document</td><td class="noborder"><input type="file"></td><td class="noborder"><span class="or"> OR</span></td></tr>
- <tr><td class="noborder" ><a href="https://google.com" target="_blank"> <input type="button" value="Fetch from DigiLocker" ></a> </td></tr>
+ <tr><td class="noborder" ><a href="https://google.com" target="_blank"> <input type="button" value="Fetch from DigiLocker"></a> </td></tr>
  </table>
  </p>
  <table><tr>
